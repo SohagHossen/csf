@@ -4,6 +4,7 @@
 ```bash
 cd /usr/src
 rm -fv csf.tgz
+wget -O https://github.com/SohagHossen/csf/blob/main/csf.tgz
 tar -xzf csf.tgz
 cd csf
 sh install.sh
